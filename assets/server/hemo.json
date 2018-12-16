@@ -1,0 +1,424 @@
+{
+  "hemo": [
+    {
+      "nome": "Hemoacre",
+      "location": { "latitude": -9.9537615, "longitude": -67.8188671 }
+    },
+    {
+      "nome": "Hemoap",
+      "location": { "latitude": 0.0400864, "longitude": -51.0498131 }
+    },
+    {
+      "nome": "Fhemoam",
+      "location": { "latitude": -3.0859786, "longitude": -60.0266938 }
+    },
+    {
+      "nome": "Fundação Hemopa",
+      "location": { "latitude": -1.4630392, "longitude": -48.487432 }
+    },
+    {
+      "nome": "Fhemeron",
+      "location": { "latitude": -8.7376896, "longitude": -63.8907149 }
+    },
+    {
+      "nome": "Uct De Ji Paraná",
+      "location": { "latitude": -10.8781412, "longitude": -61.9326728 }
+    },
+    {
+      "nome": "Hemocentro De Roraima",
+      "location": { "latitude": 2.8315263, "longitude": -60.6896838 }
+    },
+    {
+      "nome": "Unidade De Coleta De Transfusão Augustinópolis",
+      "location": { "latitude": -5.4655082, "longitude": -47.8814471 }
+    },
+    {
+      "nome": "Hemocentro Coordenador De Palmas",
+      "location": { "latitude": -10.1711902, "longitude": -48.3346931 }
+    },
+    {
+      "nome": "Hemocentro Regional De Araguaína",
+      "location": { "latitude": -7.1931538, "longitude": -48.2098721 }
+    },
+    {
+      "nome": "Núcleo De Hemoterapia De Gurupi",
+      "location": { "latitude": -11.7293155, "longitude": -49.0612066 }
+    },
+    {
+      "nome": "Hemocentro De Alagoas – Hemoal",
+      "location": { "latitude": -9.672467, "longitude": -35.7582896 }
+    },
+    {
+      "nome": "Hemoba",
+      "location": { "latitude": -12.9976148, "longitude": -38.4922132 }
+    },
+    {
+      "nome": "Hemoce",
+      "location": { "latitude": -3.7381332, "longitude": -38.545462 }
+    },
+    {
+      "nome": "Centro De Hematologia E Hemoterapia Do Maranhão",
+      "location": { "latitude": -2.5448137, "longitude": -44.2655918 }
+    },
+    {
+      "nome": "Hemocentro Coordenador Paraíba",
+      "location": { "latitude": -7.1254229, "longitude": -34.8739316 }
+    },
+    {
+      "nome": "Fundação De Hematologia E Hemoterapia De Pernambuco",
+      "location": { "latitude": -8.052668, "longitude": -34.8979476 }
+    },
+    {
+      "nome": "Hemocentro Regional Caruaru",
+      "location": { "latitude": -8.2809201, "longitude": -35.9726322 }
+    },
+    {
+      "nome": "Hemocentro Regional De Garanhuns",
+      "location": { "latitude": -8.885081, "longitude": -36.4815707 }
+    },
+    {
+      "nome": "Núcelo De Hemoterapia Regional Arcoverde",
+      "location": { "latitude": -8.4176126, "longitude": -37.0584723 }
+    },
+    {
+      "nome": "Núcleo De Hemoterapia Regional Ouricuri",
+      "location": { "latitude": -7.8812795, "longitude": -40.0840237 }
+    },
+    {
+      "nome": "Núcleo De Hemoterapia Regional Petrolina",
+      "location": { "latitude": -9.3985164, "longitude": -40.5009372 }
+    },
+    {
+      "nome": "Núcleo De Hemoterapia Regional Salgueiro",
+      "location": { "latitude": -8.0725066, "longitude": -39.1268089 }
+    },
+    {
+      "nome": "Núcleo De Hemoterapia Regional Serra Talhada",
+      "location": { "latitude": -7.9890534, "longitude": -38.2959533 }
+    },
+    {
+      "nome": "Hemopi",
+      "location": { "latitude": -25.7280799, "longitude": -53.0592741 }
+    },
+    {
+      "nome": "Hemonorte",
+      "location": { "latitude": -5.8049797, "longitude": -35.2085223 }
+    },
+    {
+      "nome": "Hemovida",
+      "location": { "latitude": -5.7814604, "longitude": -35.1970392 }
+    },
+    {
+      "nome": "Hemose",
+      "location": { "latitude": -10.9256341, "longitude": -37.0804655 }
+    },
+    {
+      "nome": "Fundação Hemocentro De Brasília",
+      "location": { "latitude": -15.7856713, "longitude": -47.8828645 }
+    },
+    {
+      "nome": "Hemocentro De Goiás",
+      "location": { "latitude": -16.6753041, "longitude": -49.2593239 }
+    },
+    {
+      "nome": "Mt Hemocentro",
+      "location": { "latitude": -15.6054899, "longitude": -56.1015682 }
+    },
+    {
+      "nome": "Hemosul",
+      "location": { "latitude": -20.4684173, "longitude": -54.6090172 }
+    },
+    {
+      "nome": "Hemoes",
+      "location": { "latitude": -20.2979169, "longitude": -40.3169339 }
+    },
+    {
+      "nome": "Núcleo Regional De Patos De Minas",
+      "location": { "latitude": -18.5941011, "longitude": -46.5149362 }
+    },
+    {
+      "nome": "Nucleo Regional De Ponte Nova",
+      "location": { "latitude": -20.4186282, "longitude": -42.9131912 }
+    },
+    {
+      "nome": "Nucleo Regional De Pouso Alegre",
+      "location": { "latitude": -22.2261348, "longitude": -45.9295297 }
+    },
+    {
+      "nome": "Nucleo Regional De São João Del Rei",
+      "location": { "latitude": -21.1388677, "longitude": -44.25582 }
+    },
+    {
+      "nome": "Nucleo Regional De Sete Lagoas",
+      "location": { "latitude": -19.4624525, "longitude": -44.2294823 }
+    },
+    {
+      "nome": "Posto De Coleta De Betim Hemominas",
+      "location": { "latitude": -19.9673078, "longitude": -44.2011904 }
+    },
+    {
+      "nome": "Unidade De Coleta E Transfusão De Além Paraíba Hemominas",
+      "location": { "latitude": -21.8833835, "longitude": -42.6985095 }
+    },
+    {
+      "nome": "Unidade De Coleta E Transfusão Hjk",
+      "location": { "latitude": -19.9892591, "longitude": -43.9966115 }
+    },
+    {
+      "nome": "Fundação Hemominas – Administração Central",
+      "location": { "latitude": -19.929638, "longitude": -43.9233597 }
+    },
+    {
+      "nome": "Fundação Hemominas De Belo Horizonte",
+      "location": { "latitude": -19.9248522, "longitude": -43.9319432 }
+    },
+    {
+      "nome": "Hemocentro Regional De Juiz De Fora",
+      "location": { "latitude": -21.7533412, "longitude": -43.3511177 }
+    },
+    {
+      "nome": "Hemocentro Regional De Montes Claros",
+      "location": { "latitude": -16.7318827, "longitude": -43.871102 }
+    },
+    {
+      "nome": "Hemocentro Regional De Uberaba",
+      "location": { "latitude": -19.7568472, "longitude": -47.9306543 }
+    },
+    {
+      "nome": "Hemocentro Regional De Uberlândia",
+      "location": { "latitude": -18.8810847, "longitude": -48.2610289 }
+    },
+    {
+      "nome": "Hemominas De Governador Valadares",
+      "location": { "latitude": -18.8541135, "longitude": -41.939479 }
+    },
+    {
+      "nome": "Hemominas De Ituiutaba",
+      "location": { "latitude": -18.9739665, "longitude": -49.4857075 }
+    },
+    {
+      "nome": "Hemominas Passos",
+      "location": { "latitude": -20.7265681, "longitude": -46.6120678 }
+    },
+    {
+      "nome": "Hemominas Poços De Caldas",
+      "location": { "latitude": -21.7847751, "longitude": -46.5529022 }
+    },
+    {
+      "nome": "Núcleo Regional De Diamantina Hemominas",
+      "location": { "latitude": -19.9049196, "longitude": -44.076178 }
+    },
+    {
+      "nome": "Núcleo Regional De Manhuaçu",
+      "location": { "latitude": -20.2555875, "longitude": -42.030947 }
+    },
+    {
+      "nome": "Banco De Sangue Do Instituto Nacional De Câncer José Alencar Gomes Da Silva",
+      "location": { "latitude": -22.9116513, "longitude": -43.1884478 }
+    },
+    {
+      "nome": "Hemocentro De Ribeirão Preto",
+      "location": { "latitude": -21.1605017, "longitude": -47.8494722 }
+    },
+    {
+      "nome": "Hemonúcleo De  Santos",
+      "location": { "latitude": -23.9624002, "longitude": -46.3215602 }
+    },
+    {
+      "nome": "Hemonúcleo De Bauru",
+      "location": { "latitude": -22.3306151, "longitude": -49.0761128 }
+    },
+    {
+      "nome": "Hospital Amaral Carvalho",
+      "location": { "latitude": -22.2916715, "longitude": -48.5500654 }
+    },
+    {
+      "nome": "Hospital De Cancer De Barretos",
+      "location": { "latitude": -20.5889928, "longitude": -48.5695037 }
+    },
+    {
+      "nome": "Hospital Regional De Assis",
+      "location": { "latitude": -22.6604341, "longitude": -50.4187813 }
+    },
+    {
+      "nome": "Hospital São Paulo De Ensino Da Unifesp São Paulo",
+      "location": { "latitude": -23.5974295, "longitude": -46.6438324 }
+    },
+    {
+      "nome": "Nucleo De Atendimento A Comunidade Farmácia Araraquara",
+      "location": { "latitude": -21.7848272, "longitude": -48.1786486 }
+    },
+    {
+      "nome": "Colsan",
+      "location": { "latitude": -23.5114888, "longitude": -47.456187 }
+    },
+    {
+      "nome": "Fundação Faculdade Regional De Medicina De São José Do Rio Preto",
+      "location": { "latitude": -20.811761, "longitude": -49.3762272 }
+    },
+    {
+      "nome": "Hemocentro Da Faculdade De Medicina De Marilia",
+      "location": { "latitude": -22.2245865, "longitude": -49.9375091 }
+    },
+    {
+      "nome": "Hemocentro Da Santa Casa De São Paulo/laboratório De Histocompatibilidade",
+      "location": { "latitude": -23.543883, "longitude": -46.6499773 }
+    },
+    {
+      "nome": "Hemocentro De Botucatu",
+      "location": { "latitude": -22.8992387, "longitude": -48.4924076 }
+    },
+    {
+      "nome": "Hemocentro De Campinas/ Unicamp",
+      "location": { "latitude": -22.828624, "longitude": -47.063853 }
+    },
+    {
+      "nome": "Hospital Universitário Regional Do Norte Do Paraná",
+      "location": { "latitude": -23.3044524, "longitude": -51.1695824 }
+    },
+    {
+      "nome": "Unidade De Coleta E Transfusão De Toledo",
+      "location": { "latitude": -24.7287548, "longitude": -53.7408363 }
+    },
+    {
+      "nome": "Hemepar Cornelio Procopio",
+      "location": { "latitude": -23.1827465, "longitude": -50.6456587 }
+    },
+    {
+      "nome": "Hemepar Curitiba",
+      "location": { "latitude": -25.4249838, "longitude": -49.257592 }
+    },
+    {
+      "nome": "Hemepar Guarapuava",
+      "location": { "latitude": -25.3974942, "longitude": -51.4580999 }
+    },
+    {
+      "nome": "Hemepar Irati",
+      "location": { "latitude": -25.4673017, "longitude": -50.6501954 }
+    },
+    {
+      "nome": "Hemepar Jacarezinho",
+      "location": { "latitude": -23.157939, "longitude": -49.9777202 }
+    },
+    {
+      "nome": "Hemepar Paranagua",
+      "location": { "latitude": -25.5202259, "longitude": -48.5064362 }
+    },
+    {
+      "nome": "Hemepar Ponta Grossa",
+      "location": { "latitude": -25.1003739, "longitude": -50.1585908 }
+    },
+    {
+      "nome": "Hemepar Telemaco Borba",
+      "location": { "latitude": -24.3304024, "longitude": -50.6191598 }
+    },
+    {
+      "nome": "Hemepar Umuarama",
+      "location": { "latitude": -23.7661064, "longitude": -53.3206105 }
+    },
+    {
+      "nome": "Hemobanco – Curitiba",
+      "location": { "latitude": -25.4356704, "longitude": -49.2904908 }
+    },
+    {
+      "nome": "Hemocentro Regional De Cascavel",
+      "location": { "latitude": -24.9759069, "longitude": -53.4964194 }
+    },
+    {
+      "nome": "Hemocentro Regional De Maringá",
+      "location": { "latitude": -23.4018724, "longitude": -51.956657 }
+    },
+    {
+      "nome": "Hemonúcleo De Foz Do Iguaçu",
+      "location": { "latitude": -25.494464, "longitude": -54.5383508 }
+    },
+    {
+      "nome": "Hemonúcleo Regional De Francisco Beltrão",
+      "location": { "latitude": -26.0651667, "longitude": -53.0448564 }
+    },
+    {
+      "nome": "Hemonúcleo Regional De Paranavaí",
+      "location": { "latitude": -23.0731189, "longitude": -52.4640465 }
+    },
+    {
+      "nome": "Hospital De Clínicas – Ufpr",
+      "location": { "latitude": -25.4241867, "longitude": -49.2649582 }
+    },
+    {
+      "nome": "Hospital Erasto Gaertner",
+      "location": { "latitude": -25.4542386, "longitude": -49.2394749 }
+    },
+    {
+      "nome": "Assims",
+      "location": { "latitude": -26.2233218, "longitude": -52.6803241 }
+    },
+    {
+      "nome": "Banco De Sangue Na Santa Casa",
+      "location": { "latitude": -25.4369705, "longitude": -49.2741851 }
+    },
+    {
+      "nome": "Cisvali",
+      "location": { "latitude": -26.2270286, "longitude": -51.0865923 }
+    },
+    {
+      "nome": "Consorcio De Saude – Cianorte",
+      "location": { "latitude": -23.6551161, "longitude": -52.6115821 }
+    },
+    {
+      "nome": "Hemepar Apucarana",
+      "location": { "latitude": -23.5533524, "longitude": -51.4696826 }
+    },
+    {
+      "nome": "Hemepar Campo Mourao",
+      "location": { "latitude": -24.045045, "longitude": -52.3908055 }
+    },
+    {
+      "nome": "Hemosar",
+      "location": { "latitude": -27.8684566, "longitude": -54.4861736 }
+    },
+    {
+      "nome": "Hospital Conceição",
+      "location": { "latitude": -30.0162194, "longitude": -51.15908 }
+    },
+    {
+      "nome": "Hospital De Clínicas De Porto Alegre",
+      "location": { "latitude": -30.039951, "longitude": -51.2082828 }
+    },
+    {
+      "nome": "Hemocentro Regional De Alegrete",
+      "location": { "latitude": -29.7880963, "longitude": -55.795094 }
+    },
+    {
+      "nome": "Hemocentro Regional De Caxias Do Sul",
+      "location": { "latitude": -29.1640035, "longitude": -51.1852882 }
+    },
+    {
+      "nome": "Hemocentro Regional De Cruz Alta",
+      "location": { "latitude": -28.6420362, "longitude": -53.6080518 }
+    },
+    {
+      "nome": "Hemocentro Regional De Palmeira Das Missoes",
+      "location": { "latitude": -27.9001784, "longitude": -53.3140353 }
+    },
+    {
+      "nome": "Hemocentro Regional De Santa Maria",
+      "location": { "latitude": -29.6926706, "longitude": -53.7944018 }
+    },
+    {
+      "nome": "Hemopasso Hemocentro Regional De Passo Fundo",
+      "location": { "latitude": -28.2541176, "longitude": -52.420188 }
+    },
+    {
+      "nome": "Hemopel",
+      "location": { "latitude": -31.7581563, "longitude": -52.3489107 }
+    },
+    {
+      "nome": "Hemorgs",
+      "location": { "latitude": -30.0632495, "longitude": -51.1787812 }
+    },
+    {
+      "nome": "Centro De Hematologia E Hemoterapia De Santa Catarina",
+      "location": { "latitude": -27.5889634, "longitude": -48.5514392 }
+    }
+  ]
+}

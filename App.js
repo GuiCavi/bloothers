@@ -41,12 +41,12 @@ class App extends Component {
     });
 
     const images = [
-      require('./assets/images/marker.png'),
+      // require('./assets/images/marker.png'),
       require('./assets/images/logo-text.png'),
     ];
 
     for await (image of images) {
-      return Asset.fromModule(image).downloadAsync();
+      Asset.fromModule(image).downloadAsync();
     }
 
     return true;
