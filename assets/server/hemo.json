@@ -1,6 +1,7 @@
 {
   "hemo": [
     {
+      "id": 0,
       "nome": "Hemoacre",
       "location": { "latitude": -9.9537615, "longitude": -67.8188671 }
     },

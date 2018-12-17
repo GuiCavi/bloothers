@@ -1,5 +1,7 @@
 import React from 'react';
-import { Text as NativeText, View } from 'react-native';
+import { Text as NativeText, Dimensions } from 'react-native';
+
+const { width: DEVICE_WIDTH } = Dimensions.get('window');
 
 const mapWeight = {
   '100': 'light',
@@ -30,7 +32,7 @@ class Text extends React.Component {
 
   render() {
     const {
-      fontWeight = 'normal',
+      weight: fontWeight = 'normal',
       fontStyle = '',
       color = 'black',
       size: fontSize = 14,
@@ -39,20 +41,26 @@ class Text extends React.Component {
       ...rest
     } = this.props;
 
+    let styles = {
+      fontFamily: `avenir-${mapWeight[fontWeight]}${
+        fontStyle !== '' ? '-' + mapStyle[fontStyle] : ''
+      }`,
+      color,
+    };
+
+    if (DEVICE_WIDTH > 375) {
+      styles = {
+        ...styles,
+        fontSize,
+      };
+    }
+
     return (
       <NativeText
         ref={ref => (this._root = ref)}
         {...rest}
-        style={[
-          {
-            fontFamily: `avenir-${mapWeight[fontWeight]}${
-              fontStyle !== '' ? '-' + mapStyle[fontStyle] : ''
-            }`,
-            color,
-            fontSize,
-          },
-          style,
-        ]}
+        adjustsFontSizeToFit={DEVICE_WIDTH <= 375}
+        style={[styles, style]}
       >
         {children}
       </NativeText>

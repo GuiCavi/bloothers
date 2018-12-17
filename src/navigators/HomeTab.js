@@ -8,8 +8,8 @@ import Colors from '../utils/colors';
 const TabBarComponent = props => <BottomTabBar {...props} />;
 
 const routes = {
-  Home,
   Profile,
+  Home,
   // Campaign,
 };
 

@@ -32,6 +32,7 @@ class Home extends Component {
         latitudeDelta: 10,
         longitudeDelta: 10,
       },
+      canLocate: true,
     };
 
     this.resetMapCamera = this.resetMapCamera.bind(this);
@@ -50,8 +51,7 @@ class Home extends Component {
   }
 
   async loadHemocenter() {
-    const hemocenters = await Resources.hemocenter('GET');
-    console.log(hemocenters);
+    const hemocenters = await (await Resources.hemocenter.get()).json();
 
     this.setState({
       hemocenters,
@@ -67,13 +67,25 @@ class Home extends Component {
         true,
       );
     } else {
-      let location = await Location.getCurrentPositionAsync({});
-      this.setState({
-        location: {
-          ...this.state.location,
-          ...location.coords,
-        },
-      });
+      try {
+        let location = await Location.getCurrentPositionAsync({});
+        this.setState({
+          location: {
+            ...this.state.location,
+            ...location.coords,
+          },
+        });
+      } catch (e) {
+        this.setState(
+          {
+            canLocate: false,
+          },
+          () =>
+            this.props.actions.alert.toggle(
+              i18n.alerts.location.locationDisabled,
+            ),
+        );
+      }
     }
   }
 
@@ -92,11 +104,15 @@ class Home extends Component {
         <Map
           ref={map => (this.map = map)}
           location={this.state.location}
+          canLocate={this.state.canLocate}
           markers={this.state.hemocenters}
         />
-        <FAB position="TOP_RIGHT" onPress={this.resetMapCamera}>
-          <CustomIcon name="target" size={30} color={Colors.theme.primary} />
-        </FAB>
+
+        {this.state.location.latitude && this.state.location.longitude && (
+          <FAB position="TOP_RIGHT" onPress={this.resetMapCamera}>
+            <CustomIcon name="target" size={30} color={Colors.theme.primary} />
+          </FAB>
+        )}
       </View>
     );
   }

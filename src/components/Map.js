@@ -23,12 +23,14 @@ class Map extends Component {
   }
 
   playAnimation() {
-    this.animation.reset();
-    this.animation.play();
+    setTimeout(() => {
+      this.animation.reset();
+      this.animation.play();
+    }, 1);
   }
 
   animateToRegion(location) {
-    this.map.animateToRegion(location);
+    if (this.map) this.map.animateToRegion(location);
   }
 
   render() {
@@ -43,11 +45,15 @@ class Map extends Component {
             ref={animation => {
               this.animation = animation;
             }}
-            source={require('../../assets/lottie/location.json')}
+            speed={this.props.canLocate ? 1 : 0}
+            source={require('../../assets/lottie/location-pin.json')}
           />
-          <View style={{ paddingTop: 120 }}>
-            <Text>{i18n.map.gettingLocationText}</Text>
-          </View>
+
+          <Text style={{ paddingTop: 200 }}>
+            {this.props.canLocate
+              ? i18n.map.gettingLocationText
+              : i18n.alerts.location.locationDisabled}
+          </Text>
         </View>
       );
     }

@@ -1,15 +1,24 @@
 const Hemocenters = require('./hemo.json');
+const Donators = require('./doador.json');
 
-const hemocenter = (verb = 'GET') => {
-  return new Promise((res, rej) => {
-    switch (verb) {
-      case 'GET':
-      default:
-        res(Hemocenters['hemo']);
+const hemocenter = {
+  get: () => {
+    return fetch('https://bloothers-server.herokuapp.com/hemo');
+  },
+};
+
+const donator = {
+  get: (cpf = '') => {
+    let url = 'https://bloothers-server.herokuapp.com/doadores';
+
+    if (cpf !== '') {
+      url += '?cpf=' + cpf;
     }
-  });
+    return fetch(url);
+  },
 };
 
 export default {
   hemocenter,
+  donator,
 };
