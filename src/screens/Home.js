@@ -62,9 +62,15 @@ class Home extends Component {
     let { status } = await Permissions.askAsync(Permissions.LOCATION);
 
     if (status !== 'granted') {
-      this.props.actions.alert.toggle(
-        i18n.alerts.location.permissionDenied,
-        true,
+      this.setState(
+        {
+          canLocate: false,
+        },
+        () =>
+          this.props.actions.alert.toggle(
+            i18n.alerts.location.permissionDenied,
+            true,
+          ),
       );
     } else {
       try {

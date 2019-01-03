@@ -8,7 +8,7 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo-icon.png",
     "splash": {
       "image": "./assets/images/splash2.png",
       "resizeMode": "cover",
@@ -27,7 +27,7 @@
     },
     "android": {
       "package": "br.guicavi.bloothers",
-      "permissions": [],
+      "permissions": ["ACCESS_FINE_LOCATION"],
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyDzSwZ6DJmBB-PYOK-kWHoLwyxsObD9p1w"

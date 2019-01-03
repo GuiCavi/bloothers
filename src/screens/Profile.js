@@ -66,6 +66,7 @@ class Profile extends Component {
   async loadDonator() {
     const donator = (await (await Resources.donator.get(
       '12345678910',
+      // '10987654321',
     )).json())[0];
     console.log(donator);
 

@@ -1,6 +1,3 @@
-const Hemocenters = require('./hemo.json');
-const Donators = require('./doador.json');
-
 const hemocenter = {
   get: () => {
     return fetch('https://bloothers-server.herokuapp.com/hemo');
