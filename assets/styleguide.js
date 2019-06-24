@@ -3,7 +3,7 @@
 // Please use the app to update the values below
 // Last updated: Mon Jun 24 2019
 
-export const azulPiscina2 = "#5bb8cb";
+export const roxo = "#9937ff";
 export const blue = "#2569ba";
 export const blueDark = "#0f4b95";
 export const blueLighten1 = "#4a9dd7";
